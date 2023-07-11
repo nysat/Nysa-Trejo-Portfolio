@@ -12,7 +12,7 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #af8db8;
     color: #ffffff;
 }
 
@@ -22,7 +22,7 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: #d2b1f1;
 }
 
 /* navigation bar */
@@ -44,7 +44,7 @@ a {
     text-decoration: none;
 }
 
-p { 
+p {
     font-size: 16px;
 }
 
@@ -60,7 +60,7 @@ figure {
 }
 
 /* bottom paragraphs */
-/*
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,17 +72,16 @@ figure {
 }
 
 .content {
-    display: inline-block;
+
     margin-left: 20px;
 }
 
 /* sections */
 section div {
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-
 }
 
 section div h2 {
@@ -91,7 +90,8 @@ section div h2 {
 }
 
 section div #right-side {
-    flex: 0 0 85%
+    flex: 0 0 85%;
+    border-left:  5px solid black;
 }
 
 div {
@@ -99,7 +99,7 @@ div {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+
     color: #ffffff;
 }
 
