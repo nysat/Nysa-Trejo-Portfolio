@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 /* header section */
 header {
     padding: 20px;
@@ -23,6 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /* navigation bar */
 header nav {
     padding-top: 15px;
@@ -31,6 +33,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -41,10 +44,12 @@ a {
     text-decoration: none;
 }
 
-p {
+p { 
     font-size: 16px;
 }
+
 /* top image */
+
 figure {
     height: 150px;
     width: 100%;
@@ -53,7 +58,9 @@ figure {
     background-size: cover;
     background-position: center;
 }
+
 /* bottom paragraphs */
+/*
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,18 +75,22 @@ figure {
     display: inline-block;
     margin-left: 20px;
 }
-/* content to the side */
-#section-layout {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+
+/* sections */
+section div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 
 }
-#section-layout h2 {
-flex: 0 0 15%; 
-text-align: right;
+
+section div h2 {
+    flex: 0 0 15%;
+    text-align: right;
 }
-#section-layout #right-side {
+
+section div #right-side {
     flex: 0 0 85%
 }
 
