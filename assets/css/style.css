@@ -61,24 +61,6 @@ figure {
 }
 
 /* sections */
-section div {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-section div h2 {
-    flex: 0 0 15%;
-    text-align: right;
-}
-
-section div #right-side {
-    flex: 0 0 85%;
-    border-left:  3px solid #908eec;
-}
-
 div {
     margin-bottom: 20px;
     padding: 50px;
@@ -87,15 +69,59 @@ div {
 
     color: #ffffff;
 } 
+section div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+section div h2 {
+    flex: 0 0 15%;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 36px;
+   
+}
 
 div img {
     max-height: 200px;
 }
 
-section div h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+section div #right-side {
+    flex: 0 0 85%;
+    border-left:  3px solid #908eec;
 }
+ /* link cards */
+.project01{
+   display: flex;
+   flex-wrap: row;
+   justify-content: center;
+    gap: 1em;
+
+}  
+.project02{
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    gap: 1em;
+}
+.project03{
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    gap: 1em; 
+}
+.project04{
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+
 
 /* footer section */
 .footer {
