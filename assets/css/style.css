@@ -83,8 +83,9 @@
  #about-me {
      padding: 20px;
      display: flex;
-     flex-wrap: wrap;
+     flex-wrap: row;
      flex: 25%;
+     font-size: 50;
 
  }
 
@@ -113,7 +114,6 @@
      flex: 25%;
 
  }
-
  /*cards*/
  .card {
      padding: 20px; 
